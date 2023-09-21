@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Juliana Campo">
+    <meta name="description" content="Pagina web personal">
+    <meta name="keywords" content="HTML, CSS, JavaScript, bootstrap">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Web Personal| Juliana</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap CDN  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS estilos personalizados-->
+    <link rel="stylesheet" href="../estilos/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="proyectos.html">Proyectos</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="../index.html">Sobre mí</a></li>
+                    <li><a href="estudios.html">Estudios</a></li>
+                    <li class="dropdown">
+                        <a href="pasatiempos.html" class="dropdown-toggle" data-toggle="dropdown">Pasatiempos <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="scroll" href="pasatiempos.html#tomar-fotografias">Tomar fotografías</a></li>
+                            <li><a class="scroll" href="pasatiempos.html#viajar">Viajar</a></li>
+                            <li><a class="scroll" href="pasatiempos.html#salir-con-amigos">Salir con amigos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+        <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+        <!-- Galeria de Proyectos -->
+        <div class="container text-center proyectos-contenedor">
+          <div class="row">
+            <!-- Proyecto 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img class="card-img-top" src="../archivos/volleyball.jpg"  width="100" alt="Proyecto 1">
+                <div class="overlay">
+                  <p>Proyecto 1</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Proyecto 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img class="card-img-top" src="../archivos/volleyball.jpg"  width="100" alt="Proyecto 1">
+                <div class="overlay">
+                  <p>Proyecto 2</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Proyecto 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img class="card-img-top" src="../archivos/volleyball.jpg"  width="100" alt="Proyecto 1">
+                <div class="overlay">
+                  <p>Proyecto 3</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Proyecto 4 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img class="card-img-top" src="../archivos/volleyball.jpg"  width="100" alt="Proyecto 1">
+                <div class="overlay">
+                  <p>Proyecto 4</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Proyecto 5 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img class="card-img-top" src="../archivos/volleyball.jpg"  width="100" alt="Proyecto 1">
+                <div class="overlay">
+                  <p>Proyecto 5</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Proyecto 6 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img class="card-img-top" src="../archivos/volleyball.jpg"  width="100" alt="Proyecto 1">
+                <div class="overlay">
+                  <p>Proyecto 6</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <button type="button" class="btn btn-info">
+            Ver más proyectos
+            <i class="bi bi-arrow-right-circle-fill"></i>
+          </button>
+        </a>
+      </section>
+  
+<!--
+    <section id="section-contenido">
+        <h2>Proyectos Realizados</h2>
+        <p>A lo largo de mi carrera, he tenido la oportunidad de trabajar en varios proyectos interesantes. A
+            continuación, se enumeran algunos de ellos:</p>
+
+        <section>
+            <table class="table table-bordered">
+                <thead class="thead-custom">
+                    <tr>
+                        <th class="bg-custom text-white">Número</th>
+                        <th class="bg-custom text-white">Proyecto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Proyecto de Desarrollo de Software para Cliente X</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Sitio Web de Comercio Electrónico para Empresa Y</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Aplicación Móvil para Plataforma Z</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Proyecto de Innovación en Tecnología Educativa</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Aplicación Web de Gestión de Tareas</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Desarrollo de un Juego Educativo en 3D</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+         Lista Numerada 
+        <ol>
+            <li class="lista-numerada">Proyecto de Desarrollo de Software para Cliente X</li>
+            <li class="lista-numerada">Sitio Web de Comercio Electrónico para Empresa Y</li>
+            <li class="lista-numerada">Aplicación Móvil para Plataforma Z</li>
+        </ol>
+
+
+        Lista Desordenada 
+        <ul>
+            <li class="lista-desordenada">Proyecto de Innovación en Tecnología Educativa</li>
+            <li class="lista-desordenada">Aplicación Web de Gestión de Tareas</li>
+            <li class="lista-desordenada">Desarrollo de un Juego Educativo en 3D</li>
+        </ul>
+    -->
+  <!--      <p>Estos son algunos ejemplos de los proyectos en los que he tenido la oportunidad de trabajar durante mi
+            carrera.</p>
+    </section>
+
+-->
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-clara d-flex flex-column align-items-center justify-content-center">
+
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://github.com/juliana2101" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="mailto:julianacampo@unicauca.edu.co" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope"></i>
+            </a>
+        </div>
+        <div class="derechos-de-autor">Creado por Juliana Campo
+            <p> Universidad del Cauca</p>
+            <p>Popayán - Cauca</p>
+            <p>2023 &copy;</p>
+        </div>
+    </footer>
+
+</body>

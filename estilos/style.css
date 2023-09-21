@@ -1,0 +1,349 @@
+
+
+/* barra de navegación */
+.navbar.navbar-inverse {
+    background-color: #091431;
+    border-color: #091431;
+    border-radius: 0%;
+    margin: 0%;
+}
+
+.navbar.navbar-inverse .navbar-brand {
+    display: none;
+}
+
+/* Estilos generales */
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+    color: #414141;
+}
+
+
+.seccion-oscura {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+
+.btn-info {
+    font-size: 1.1rem;
+    margin: 20px;
+}
+
+.texto-negro {
+    color: black;
+}
+
+.texto-blanco {
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar.navbar-inverse .navbar-brand {
+        display: block;
+    }
+    .hero-imagen-desarrollador {
+        max-width: 200px;
+
+    }
+}
+
+/* Seccion Hero */
+.hero {
+    background-color: #e6e6e6;
+    min-height: 450px;
+    text-align: center;
+    margin: 0%;
+}
+
+#hola-nombre:hover {
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+    color: #000000;
+    transform: scale(1.1) rotate(0deg);
+    /* Aumenta el zoom al 110% */
+    transition: all 0.5s;
+}
+
+
+.hero-imagen-desarrollador {
+    width: 250px;
+    margin: 20px;
+    border-radius: 10%;
+    border: 2px solid #091431;
+    box-shadow: 5px 5px 25px #091431;
+}
+
+.hero-imagen-desarrollador:hover {
+    filter: none;
+    transform: scale(1.1) rotate(0deg);
+    /* Aumenta el zoom al 110% */
+    transition: all 0.5s;
+}
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: #383946;
+}
+
+/* Sobre mi */
+.sobre-mi {
+    height: 450px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+.sobre-mi .contenedor:hover {
+    filter: none;
+    transform: scale(1.05) rotate(0deg);
+    /* Aumenta el zoom al 105% */
+    transition: all 0.5s;
+    max-width: 80%;
+
+}
+
+.sobre-mi .contenedor p {
+    font-size: 2.2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* Pie de pagina (footer) */
+.seccion-oscura {
+    background-color: #091431;
+    color: white;
+    padding: 30px 0;
+    align-items: center;
+    text-align: center;
+}
+
+
+.seccion-clara {
+    background-color: #e6e6e6;
+    color: #007bff;
+    padding: 50px 0;
+    text-align: center;
+
+}
+
+.footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.iconos-redes-sociales {
+    display: block;
+    background-color: #e6e6e6;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid #091431;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+    text-align: center;
+
+}
+
+.iconos-redes-sociales a:hover {
+    color: white;
+    border: 2px solid #073ed4;
+    transform: scale(1.1) rotate(0deg);
+    transition: all 0.2s;
+}
+
+.iconos-redes-sociales i {
+    color: #091431;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover i {
+    color: #073ed4;
+}
+
+.derechos-de-autor {
+    font-size: 15px;
+    color: #726f6f;
+    font-style: italic;
+    padding: 20px;
+}
+
+/* pag estudios */
+
+#section-contenido{ 
+    padding: 10px;
+}
+/* Estilos para los títulos de las tablas */
+.bg-custom {
+    background-color: #3d527c; 
+    color: #dfdfdf; 
+  }
+
+  /* pag pasatiempos */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  #section-pasatiempos{
+    padding: 10px 10px 10px 10px;
+}
+
+#section-contenido{
+    display: flex;
+    max-width: 100%;
+    min-width: 100%;
+    background-color: #d1dde2;
+    color: #091431;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Proyectos */
+#proyectos{
+    max-height: min-content;
+}
+
+.proyectos-recientes {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #d1dde2;
+
+  }
+  
+  .proyectos-recientes img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+
+  }
+  
+  .proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+  }
+  
+  .overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  .proyecto {
+    position: relative;
+    max-width: min-content;
+    max-width: 250px;
+  }
+  
+  .proyecto:hover img {
+    opacity: 0.2;
+
+  }
+  
+  .proyecto:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay .iconos-contenedor {
+    display: flex;
+  }
+  
+  .overlay i {
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+  }
+  .col-12 .col-md-6 .col-lg-4{
+    max-width: min-content;
+  }
+  
+  /* Adaptable (Responsivo) */
+
+@media screen and (max-width: 400px) {
+    .overlay p {
+      font-size: 18px;
+    }
+  
+    .overlay i {
+      font-size: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .navbar-brand {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .testimonio-imagen {
+      height: 120px;
+      width: 120px;
+    }
+  
+    .testimonio-texto {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (min-width: 700px) {
+    .hero-inferior-imagen {
+      max-width: 600px;
+    }
+  }
