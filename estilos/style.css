@@ -312,7 +312,11 @@ h1 {
   .col-12 .col-md-6 .col-lg-4{
     max-width: min-content;
   }
-  
+  .carousel.slide{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
   /* Adaptable (Responsivo) */
 
 @media screen and (max-width: 400px) {
@@ -342,8 +346,3 @@ h1 {
     }
   }
   
-  @media screen and (min-width: 700px) {
-    .hero-inferior-imagen {
-      max-width: 600px;
-    }
-  }

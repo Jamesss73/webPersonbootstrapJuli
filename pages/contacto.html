@@ -117,4 +117,31 @@
         </div>
     </footer>
 
+
+<script>
+    // Función para validar el formulario
+    function validarFormulario() {
+        var nombre = document.getElementById("txt-nombre").value;
+        var correo = document.getElementById("txt-correo").value;
+        var mensaje = document.getElementById("txt-mensaje").value;
+
+        // Esto nos ayuda a que los campos no estén vacíos
+        if (nombre === "" || correo === "" || mensaje === "") {
+            alert("Por favor, completa todos los campos.");
+            return false; // Cuando retornamos falso evitamos que el formulario se envie
+        }
+        // Si todos los campos están completos, permitir que el formulario se envíe.
+        return true;
+    }
+
+    // Asigna la función de validación al evento "submit" del formulario
+    document.getElementById("form-contacto").addEventListener("submit", function (event) {
+        if (!validarFormulario()) {
+            event.preventDefault(); // Evita que el formulario se envíe si la validación falla
+        }else{
+            alert("El formulario se envió correctamente.");
+        }
+    });
+</script>
+
 </body>
